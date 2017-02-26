@@ -1,0 +1,13 @@
+body{
+  padding: 1em;
+}
+
+img {
+  width: 175px;
+  height: auto;
+  
+  margin: 5px;
+
+  float: left;
+
+}

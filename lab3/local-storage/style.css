@@ -1,0 +1,40 @@
+body{
+  size: 2em;
+}
+.input{
+  width: 20%;
+  float: left;
+}
+.button{
+  width: 15%;
+  float: left;
+}
+.person{
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+#results{
+  width: 20%;
+  float: left;
+}
+
+@media only screen and (max-width: 789px) {
+  .input{
+    width: auto;
+    float: none;
+  }
+  .button{
+    width: auto;
+    float: none;
+  }
+  .person{
+    width: auto;
+    float: none;
+  }
+  #results{
+    width: auto;
+    float: none;
+  }
+
+}

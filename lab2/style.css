@@ -1,0 +1,34 @@
+body{
+  size: 2em;
+}
+
+.input{
+  width: 20%;
+  float: left;
+}
+
+.button{
+  width: 15%;
+  float: left;
+}
+
+#personList{
+  float: left;
+}
+
+@media only screen and (max-width: 789px) {
+  .input{
+    width: auto;
+    float: none;
+  }
+
+  .button{
+    width: auto;
+    float: none;
+  }
+  #personList{
+    width: auto;
+    float: none;
+  }
+
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title="simple page">
+      <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <audio id="music">
+        <source src="http://stream.basso.fi:8000/stream" type="audio/mpeg">
+        <p>Your browser doesn't support HTML5 audio. Here is a <a href="http://stream.basso.fi:8000/stream">link to the audio</a> instead.</p>
+    </audio>
+    <button id="pButton" class="play" onclick="playAudio()">Play</button>
+    <button id="mButton" class="play" onclick="muteAudio()">Mute</button>
+    Volume <button id="mButton" class="play" onclick="volumeUp()">+</button>
+          <button id="mButton" class="play" onclick="volumeDown()">-</button>
+    <script src="script.js"></script>
+  </body>
+</html>
